@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  sms:
+    image: sms
+    build:
+      context: .
+      dockerfile: ./Dockerfile
